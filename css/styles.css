@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/bg_ya.jpg");
+    background-size: cover;
+    padding-top: 50px;
+}
+
+header nav{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.521);
+    padding: 20px;
+}
+
+nav ul a{
+    color: #ffffff;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 10px;
+    transition: .4s;
+}
+
+nav ul a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+
+#hero{
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 300px;
+}
+
+#hero h2{
+    font-family: "Anton", sans-serif;
+    color: #fff;
+    font-size: 150px;
+    font-weight: 500;
+}
+
+#hero h1{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#hero button{
+    background: #ED324F;
+    color: #ffffff;
+    font-size: 28px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    margin-top: 50px;
+    cursor: pointer;
+    padding: 25px;
+    outline: #ffffff solid 1px;
+    outline-offset: 3px;
+    transition: .4s;
+}
+
+#hero button:hover{
+    transform: scale(1.1) ;
+    background: #ffffff;
+    color: black;
+}
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#NOTICIAS{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 0%;
+    text-align: center;
+}
+
+#NOTICIAS h2{
+    color: #0F1923;
+    text-align: left;
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    margin-bottom: 40 px;
+}
+
+#NOTICIAS p{
+    text-align: left;
+    font-size: 22px;
+
+}
+
+#NOTICIAS .fila{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+    flex-wrap: wrap;
+}
+
+#NOTICIAS article{
+    overflow: hidden;
+    position: relative;
+    width: 30%;
+    padding: 20px;
+
+}
+
+#NOTICIAS article img{
+    width: 500px;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+
+#NOTICIAS article img:hover{
+    transform: scale(1.1) ;
+}
+
+#NOTICIAS article h3{
+    color: #ED324F;
+    text-align: left;
+    width: 100%;
+}
+
+#personajes{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 120px 0 40px;
+    background: url("../img/bg-destinosVAL.jpg");
+    background-size: cover;
+}
+
+#personajes h2{
+    font-family: "Anton", sans-serif;
+    color: #F2EFEB;
+    font-size: 50px;
+    margin-bottom: 40 px;
+}
+
+#personajes .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#personajes article{
+    margin: 30px 120px;
+}
+
+#personajes article img{
+    width: 300px;
+    border-radius: 50%;
+    transition: .4s;
+    margin-bottom: 20px;
+}
+
+
+#personajes article img:hover{
+    transform: scale(1.1) ;
+}
+
+
+#personajes h3{
+    font-size: 30px;
+    color: #F2EFEB;
+    font-weight: 400;
+    font-family: "Anton", sans-serif;
+}
+
+#SOMOS{
+    width: 100%;
+    background: url("../img/bg_SOMOS\ VAL\ 1.png");
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 0%;
+}
+
+#SOMOS h2{
+    color: #0F1923;
+    font-family: "Anton", sans-serif;
+    font-size: 190px;
+    line-height: 230px;
+}
+
+#SOMOS p{
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+#SOMOS .fila{
+    display: flex;
+    justify-content: left;
+}
+
+#SOMOS article{
+    margin: 30px 120px;
+}
+
+#SOMOS article img{
+    width: 550px;
+    transition: .4s;
+}
+
+#SOMOS article img:hover{
+    transform: scale(1.1) ;
+}
+
+#SOMOS button{
+    padding: 30px;
+    font-size: 28px;
+    color: #F2EFEB;
+    text-align: center;
+    background: #ED324F;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-weight: 700;
+    margin-top: 80px;
+    transition: .4s;
+}
+
+#SOMOS button:hover{
+    transform: scale(1.1) ;
+    background: #000000;
+}
+
+#AGENTES{
+    width: 100%;
+    background: url("../img/bg_Mapas\ 1.png");
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 0%;
+}
+
+#AGENTES h2{
+    color: #F2EFEB;
+    font-family: "Anton", sans-serif;
+    font-size: 190px;
+    line-height: 230px;
+}
+
+#AGENTES h3{
+    padding: 30px;
+    color: #F2EFEB;
+    font-size: 25px;
+}
+#AGENTES p{
+    color: #F2EFEB;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+#AGENTES .fila{
+    display: flex;
+    justify-content: left;
+}
+
+#AGENTES article{
+    margin: 30px 120px;
+}
+
+#AGENTES article img{
+    width: 670px;
+    transition: .4s;
+}
+
+#AGENTES article img:hover{
+    transform: scale(1.1) ;
+}
+
+#AGENTES button{
+    padding: 30px;
+    font-size: 28px;
+    color: #F2EFEB;
+    text-align: center;
+    background: #0F1923;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-weight: 700;
+    margin-top: 80px;
+    transition: .4s;
+}
+
+#AGENTES button:hover{
+    transform: scale(1.1) ;
+    background: #ffffff;
+    color: black;
+}
+
+#MAPAS{
+    width: 100%;
+    background: url("../img/background\ mapas.webp");
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 0%;
+}
+
+#MAPAS h2{
+    color: #0F1923;
+    font-family: "Anton", sans-serif;
+    font-size: 190px;
+    line-height: 230px;
+}
+
+#MAPAS h3{
+    font-size: 30px;
+    font-family: "Anton", sans-serif;
+}
+
+#MAPAS p{
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+#MAPAS .fila{
+    display: flex;
+    justify-content: left;
+}
+
+#MAPAS article{
+    margin: 30px 120px;
+}
+
+#MAPAS article img{
+    width: 600px;
+}
+
+#MAPAS button{
+    padding: 30px;
+    font-size: 28px;
+    color: #F2EFEB;
+    text-align: center;
+    background: #ED324F;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-weight: 700;
+    margin-top: 80px;
+    transition: .4s;
+}
+
+#MAPAS button:hover{
+    transform: scale(1.1) ;
+    background: #000000;
+}
+
+#contacto{
+    color: #F2EFEB;
+    width: 100%;
+    background: #0F1923;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#contacto h2{
+    font-family: "Anton", sans-serif;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+#contacto p{
+    font-size: 22px;
+}
+
+#contacto form{
+    width: 800px;
+    margin: 40px auto;
+}
+
+form .fila{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacto input{
+    width: 42%;
+    padding: 12px 20px;
+    margin: 10px 0;
+}
+
+#contacto select{
+    width: 47.4%;
+    padding: 12px 20px;
+    margin: 10px 0;
+}
+
+#contacto button{
+    color: #F2EFEB;
+    margin-top: 40px;
+    background: #ED324F;
+    font-size: 22px;
+    padding: 10px 60px;
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    padding: 60px 0px;
+    background: black;
+    color: #fff;
+    text-align: center;
+}
